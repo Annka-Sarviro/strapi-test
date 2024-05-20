@@ -1,1 +1,5 @@
-export default () => ({});
+export default () => ({
+  "vercel-deploy": {
+    enabled: true,
+  },
+});

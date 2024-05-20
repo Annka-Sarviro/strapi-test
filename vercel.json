@@ -2,19 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/**/*",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "config/**/*",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "extensions/**/*",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "package.json",
+      "src": "server.js",
       "use": "@vercel/node"
     }
   ],
