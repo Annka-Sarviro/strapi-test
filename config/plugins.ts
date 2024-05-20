@@ -1,5 +1,1 @@
-export default () => ({
-  "content-manager": {
-    enabled: true,
-  },
-});
+export default () => ({});
